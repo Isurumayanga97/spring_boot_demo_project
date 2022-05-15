@@ -2,6 +2,7 @@ package com.assignment.demo.dto;
 
 public class UserDto {
 
+    private Long id;
     private String username;
     private String password;
     private String name;
@@ -9,6 +10,15 @@ public class UserDto {
     private String date_of_birth;
     private String gender;
     private String language;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 
     public String getUsername() {
         return username;
